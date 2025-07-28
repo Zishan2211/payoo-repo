@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Payoo MFS</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- taildwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 
 <body>
@@ -14,11 +16,36 @@
 
     </header>
     <main>
-
+        <div class="hero bg-base-200 min-h-screen">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="text-center lg:text-left">
+                <h1 class="text-5xl font-bold">Login now!</h1>
+                <p class="py-6">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+              </div>
+              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div class="card-body">
+                  <fieldset class="fieldset">
+                    <label class="label">Number</label>
+                    <input type="text" id="number" class="input" placeholder="Number" />
+                    <label class="label">PIN</label>
+                    <input type="text" id="pin" class="input" placeholder="PIN" />
+                    <div><a class="link link-hover">Forgot password?</a></div>
+                    <button class="btn btn-neutral mt-4" id="login">Login</button>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
     </main>
     <footer>
-
+        <h1 class="text-6xl font-bold underline">
+            Hello world!
+        </h1>
     </footer>
+    <script src="js/login.js"></script>
 </body>
 
 </html>
