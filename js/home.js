@@ -4,7 +4,7 @@ document.getElementById('but-add-money').addEventListener('click', function(even
     const inputAddmMoney = document.getElementById('input-add-money').value;
     const inputpin = document.getElementById('input-pin').value;
 
-    if(inputpin === "0000" ){
+    if(inputpin === "1" ){
         const accountBlance = document.getElementById('account-blance').innerText;
         
         const addMoneyNumber = parseFloat(inputAddmMoney);
