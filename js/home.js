@@ -14,7 +14,6 @@ document.getElementById('but-add-money').addEventListener('click', function(even
         console.log(newBalance); 
 
         document.getElementById('account-blance').innerText = newBalance;
-        console.log(newBalance ,'set the new blance');
     }
     else{
         alert('wrong pin. please try again');
